@@ -4,41 +4,37 @@
 /* Write your code here */
 body{
   background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-tong-019-chim-02_1_3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=2c732ce5066026b4fe5ca5d78abbe706");
-  width:700px;
-  margin-bottom: 0;
-padding-bottom:0;
+  
+  margin:0;
 
-  margin-left: auto;
-  margin-right: auto;
+  
   
  
 }
 .logo_part{
   display: flex;
-  margin-top:7px;
+  
   background-color: white;
+  
 }
-.search{
-  margin-top:30px;
-  margin-left: 30px;
+.search input{
+   margin:10px;
+  
 }
 
 .cards{
   
   display: flex;
-  width: 600px;
+  justify-content:space-around;
   flex-wrap: wrap;
   
 }
 .card{
-  flex-basis: 0;
+  margin: 5px;
   border: solid;
   border-width: 3px;
   border-color: red;
   border-radius:5px;
-  margin: auto;
-  margin-top: 5px;
-  margin-bottom: 10px; 
   display: flex;
   flex-direction: column; 
   
@@ -46,21 +42,33 @@ padding-bottom:0;
   
 }
 .container{
-  padding-bottom: 0;
-  width: 600px;
- height: 100%;
-  position: relative;
+  margin: 0 auto;
+
+  width: 40vw;
+  display: flex;
+ min-height: 100vh;
+ flex-direction: column; 
+  
 
 }
 .main_section{
   background-color: white;
-}
-nav a{
+  margin-top: 0;;
 
+}
+nav{
+  display: flex;
+justify-content: space-around;
+}
+
+nav a{
+ 
   background-color: grey;
   color: black;
-  padding: 8px 49px;
+  padding: 8px;
+  text-align:  center;
   text-decoration: none;
+  flex-grow: 1;
 }
 nav a:hover{
   background: red;
@@ -70,11 +78,9 @@ nav a:hover{
 
 .title{
   text-decoration: none;
-  text-align: center;
   background-color: #92DFF2;
   color:white;
-  font-size: 15pt;
-  flex-grow: 1; 
+  
 
 }
 
@@ -82,16 +88,14 @@ nav a:hover{
 
 
 footer{
-  position: absolute;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding-top: 20px;
-  margin-top: auto;
-  left: 0;
-  bottom: 0;
-  width: 600px;
-  height: 50px;
+   margin-top:auto;
+    background-color:black;
+    color:white;
+    height:50px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content: center
   
 }
 
